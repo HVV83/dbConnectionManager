@@ -26,7 +26,7 @@ public class Application {
 
 		// Close connection before application exit
 		ElasticLogRepository.getInstance().closeConnection();
-		
+
 		log.info("Application finished");
 	}
 
